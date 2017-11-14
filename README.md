@@ -1,8 +1,8 @@
 # Example data
 
 This repo contains data to demonstrate how to use the panorama generator and multi-calibration tool.
-Multicamera Calibration Tool (https://gitlab-mi.informatik.uni-ulm.de/ifr97/multicamera-calibration.git)
-Panorama Generator (https://gitlab-mi.informatik.uni-ulm.de/ifr97/panorama-generator.git)
+* Multicamera Calibration Tool (https://gitlab-mi.informatik.uni-ulm.de/ifr97/multicamera-calibration.git)
+* Panorama Generator (https://gitlab-mi.informatik.uni-ulm.de/ifr97/panorama-generator.git)
 
 ## Getting Started
 
@@ -20,6 +20,9 @@ cp /path/to/panorama-generator-build-folder/Release/PanoramaGenerator.exe .
 ```
 
 ### Usage for Multicamera Calibration
+NOTE: multicamera calibration can be very time consuming depending on how many cameras and images are used. 
+For testing the panorama generator you can use the calibration.xml containing intrinsic and extrinsic camera parameters.
+
 ```
 Usage: ./multicalibration -[m|c|v|e|w|h|tc] calibration_result.xml file_list.xml
 m - min matches (default 100)
