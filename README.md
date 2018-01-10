@@ -1,20 +1,20 @@
 # Example data
 
 This repo contains data to demonstrate how to use the panorama generator and multi-calibration tool.
-* Multicamera Calibration Tool (https://gitlab-mi.informatik.uni-ulm.de/ifr97/multicamera-calibration.git)
-* Panorama Generator (https://gitlab-mi.informatik.uni-ulm.de/ifr97/panorama-generator.git)
+* Multicamera Calibration Tool (https://github.com/viscom-ulm/multicamera-calibration.git)
+* Panorama Generator (https://github.com/viscom-ulm/panorama-generator.git)
 
 ## Getting Started
 
 clone this repo and copy one of the tools above into the data folder:
 ```
-git clone https://gitlab-mi.informatik.uni-ulm.de/ifr97/example-data.git
+git clone https://github.com/viscom-ulm/example-data.git
 cd example-data
 cp /path/to/multicamera-calibration-build-folder/Release/multicalibration.exe .
 ```
 or if you want to use the panorama generator:
 ```
-git clone https://gitlab-mi.informatik.uni-ulm.de/ifr97/panorama-generator.git
+git clone https://github.com/viscom-ulm/panorama-generator.git
 cd example-data
 cp /path/to/panorama-generator-build-folder/Release/PanoramaGenerator.exe .
 ```
